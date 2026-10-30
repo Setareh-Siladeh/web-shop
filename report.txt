@@ -1,17 +1,7 @@
-* a99fa7f (HEAD -> main) Ignore notes.txt
-* f6bebb3 Add test for total function
-* f3fb0a5 Add total function
-* 43f4133 Add .gitignore
-* dd39818 Add search test
-* fb21c18 Add search by name
-* 7e4948d Add Product model
-* 1c838bd Add README
-1. git add changes را برای ثبت در مرحله بعد آماده می‌کند، اما git commit آن تغییرات آماده‌شده را در تاریخچه ثبت می‌کند.
-2. فایل .env ممکن است اطلاعات محرمانه داشته باشد؛ بنابراین نباید اطلاعات حساس آن را در مخزن ثبت کرد.
-3. git diff تغییرات ثبت‌ نشده در staging area را نشان می‌دهد، اما git diff --staged تغییراتی را نشان می‌دهد که برای commit آماده شده‌اند.
 On branch main
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	report.txt
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   report.txt
 
-nothing added to commit but untracked files present (use "git add" to track)
+no changes added to commit (use "git add" and/or "git commit -a")

@@ -13,3 +13,6 @@ def total(prices):
 # two
 # wip 1
 # wip 2
+
+def apply_discount(price, percent):
+ return price / 0

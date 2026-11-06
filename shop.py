@@ -9,3 +9,5 @@ def find_by_name(products, text):
 
 def total(prices):
     return sum(prices)# note
+# one
+# two

@@ -15,3 +15,4 @@ def total(prices):
 # wip 2
 # A
 # A
+# Add tax feature

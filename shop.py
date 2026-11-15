@@ -22,5 +22,8 @@ def apply_discount(price, percent):
 
 def add_tax(price, rate=0.2):
     return price * (1 + rate)
+def apply_coupon(price):
+    return price - 5
+
 def search_by_name(products, text):
     return [p for p in products if text.lower() in p.name.lower()]

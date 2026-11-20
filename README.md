@@ -4,3 +4,4 @@ Documentation update for the docs/readme branch.
 A small online shop written in Python.
 Install pytest with: pip install pytest
 Contact: shop@example.com
+Run the tests with: python -m pytest -q

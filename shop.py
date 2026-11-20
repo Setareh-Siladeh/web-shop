@@ -27,3 +27,6 @@ def apply_coupon(price):
 
 def search_by_name(products, text):
     return [p for p in products if text.lower() in p.name.lower()]
+
+def sort_by_price(products):
+    return sorted(products, key=lambda p: p.price)

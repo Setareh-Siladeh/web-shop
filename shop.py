@@ -30,3 +30,6 @@ def search_by_name(products, text):
 
 def sort_by_price(products):
     return sorted(products, key=lambda p: p.price)
+
+def in_stock(stock, sku):
+    return stock.get(sku, 0) > 0
